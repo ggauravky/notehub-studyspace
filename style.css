@@ -25,6 +25,11 @@ nav.main-nav {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+nav.main-nav a:hover {
+    color: #ffeb3b;
+    text-decoration: underline;
+}
+
 nav.main-nav a {
     color: #fff;
     text-decoration: none;
@@ -64,6 +69,16 @@ nav.main-nav a {
     color: #555;
 }
 
+.note h2 {
+    margin-bottom: 10px;
+    color: #1976d2;
+    font-size: 1.2em;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: underline;
+
+}
+
 .notes-container {
     display: flex;
     flex-wrap: wrap;
@@ -79,4 +94,117 @@ nav.main-nav a {
     text-align: center;
     padding: 0 10px;
     min-height: 60px;
+}
+
+.btn {
+    display: inline-block;
+    background: #1976d2;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+    font-weight: 600;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn:hover {
+    background: #125ea1;
+}
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background: #4e54c8;
+    color: #fff;
+    margin-top: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 0.9em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 500;
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+    line-height: 1.5;
+    color: #f0f0f0;
+    background: linear-gradient(90deg, #4e54c8 0%, #8f94fb 100%);
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+
+
+
+/* Responsive blue horizontal line */
+.blue-hr {
+    border: 0;
+    border-top: 2px solid #1976d2;
+    margin: 16px 0;
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Responsive navigation */
+@media (max-width: 700px) {
+    nav.main-nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+    nav.main-nav .nav {
+        margin-top: 10px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    nav.main-nav a {
+        margin: 8px 0;
+        font-size: 1.1em;
+        line-height: 1.5;
+    }
+    nav{
+        text-align: center;
+        width: 100%;
+        margin-bottom: 10px;
+        align-items: center;
+    }
+}
+
+/* Responsive notes container */
+@media (max-width: 600px) {
+    .notes {
+        padding: 10px;
+        border-radius: 6px;
+    }
+    .note-content {
+        padding: 0 2px;
+        font-size: 0.98em;
+    }
+    .note h2 {
+        font-size: 1.1em;
+    }
 }
