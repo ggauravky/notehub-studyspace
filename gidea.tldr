@@ -36,9 +36,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": 872,
-			"y": 112,
-			"lastActivityTimestamp": 1760037799084,
+			"x": 862.5764297945523,
+			"y": 135.07550764759992,
+			"lastActivityTimestamp": 1760126127675,
 			"meta": {}
 		},
 		{
@@ -87,42 +87,12 @@
 			"typeName": "shape"
 		},
 		{
-			"x": 0,
-			"y": 0,
-			"z": 1,
+			"x": 208.94838634073952,
+			"y": 124.72188921644276,
+			"z": 0.717482205,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
-		},
-		{
-			"x": 872,
-			"y": 95.00000381469727,
-			"rotation": 0,
-			"isLocked": false,
-			"opacity": 1,
-			"meta": {},
-			"id": "shape:6BMFPTKSKStljImCO-8JU",
-			"type": "text",
-			"props": {
-				"color": "black",
-				"size": "m",
-				"w": 20,
-				"font": "draw",
-				"textAlign": "start",
-				"autoSize": true,
-				"scale": 1,
-				"richText": {
-					"type": "doc",
-					"content": [
-						{
-							"type": "paragraph"
-						}
-					]
-				}
-			},
-			"parentId": "page:page",
-			"index": "aAJkcm1V",
-			"typeName": "shape"
 		},
 		{
 			"x": 692,
@@ -170,12 +140,12 @@
 			"typeName": "shape"
 		},
 		{
-			"editingShapeId": "shape:6BMFPTKSKStljImCO-8JU",
+			"editingShapeId": "shape:KG7YtDuXN5WsO4DDeF_2c",
 			"croppingShapeId": null,
 			"selectedShapeIds": [
-				"shape:6BMFPTKSKStljImCO-8JU"
+				"shape:KG7YtDuXN5WsO4DDeF_2c"
 			],
-			"hoveredShapeId": "shape:6BMFPTKSKStljImCO-8JU",
+			"hoveredShapeId": "shape:KG7YtDuXN5WsO4DDeF_2c",
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
 			"focusedGroupId": null,
@@ -432,7 +402,8 @@
 			"followingUserId": null,
 			"opacityForNextShape": 1,
 			"stylesForNextShape": {
-				"tldraw:geo": "rectangle"
+				"tldraw:color": "black",
+				"tldraw:fill": "solid"
 			},
 			"brush": null,
 			"scribbles": [],
@@ -474,6 +445,36 @@
 			"id": "instance:instance",
 			"currentPageId": "page:page",
 			"typeName": "instance"
+		},
+		{
+			"x": 864.8065013000801,
+			"y": 97.69029545905968,
+			"rotation": 0,
+			"isLocked": false,
+			"opacity": 1,
+			"meta": {},
+			"id": "shape:KG7YtDuXN5WsO4DDeF_2c",
+			"type": "text",
+			"props": {
+				"color": "black",
+				"size": "m",
+				"w": 20,
+				"font": "draw",
+				"textAlign": "start",
+				"autoSize": true,
+				"scale": 1,
+				"richText": {
+					"type": "doc",
+					"content": [
+						{
+							"type": "paragraph"
+						}
+					]
+				}
+			},
+			"parentId": "page:page",
+			"index": "aAwBZSMV",
+			"typeName": "shape"
 		},
 		{
 			"x": 222.40000915527344,
