@@ -1,45 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="contact.css" />
-  </head>
-  <body>
-    <nav class="main-nav">
-      <h1>Notes Hub</h1>
-      <div class="nav">
-        <a href="/index.html">Home</a>
-        <a href="/about/about.html">About</a>
-        <a href="/contact/contact.html">Contact</a>
-        <a href="services.html">Services</a>
-      </div>
-    </nav>
 
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="contact.css" />
+</head>
+
+<body>
+  <nav class="main-nav">
+    <h1>Notes Hub</h1>
+    <div class="nav">
+      <a href="/index.html">Home</a>
+      <a href="/about/about.html">About</a>
+      <a href="/contact/contact.html">Contact</a>
+      <a href="services.html">Services</a>
+    </div>
+  </nav>
+
+
+  <div class="contact">
+    <span class="con"> <pre>            Contact me !           </pre></span>
+  </div>
+  <p>
     
-    <div class="contact">
-    <span class="con">Contact me !</span>
-</div>
-    <p>
-      Have questions, feedback, or suggestions about NotesHub? I’d love to hear
-      from you! Fill out the form below, and I’ll get back to you as soon as
-      possible. Your input helps improve NotesHub and makes it a better resource
-      for everyone.
-    </p>
+    Have questions, feedback, or suggestions about NotesHub? I’d love to hear
+    from you! Fill out the form below, and I’ll get back to you as soon as
+    possible. Your input helps improve NotesHub and makes it a better resource
+    for everyone.
+  </p>
 
-    <form class="contact-form" action="#" method="post">
-      <h2>Contact Me</h2>
-      <input type="text" name="name" placeholder="Your Name" required />
-      <input type="email" name="email" placeholder="Your Email" required />
-      <input type="text" name="subject" placeholder="Subject" required />
-      <textarea
-        name="message"
-        rows="5"
-        placeholder="Your Message"
-        required
-      ></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-  </body>
+  <form>
+
+    <div class="contact-container">
+      <h2>Get in Touch</h2>
+
+      <form>
+        <div class="row">
+          <input type="text" placeholder="First Name" required />
+          <input type="text" placeholder="Last Name" required />
+        </div>
+
+        <div class="row">
+          <input type="email" placeholder="Email" required />
+          <input type="tel" placeholder="Phone No." required />
+        </div>
+
+        <textarea placeholder="About" rows="4"></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+  </form>
+</body>
+
 </html>
