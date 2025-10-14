@@ -12,9 +12,8 @@ body {
   padding: 20px;
 }
 
-/* Navbar (same style as Gaurav’s home page) */
 nav.main-nav {
-  background: linear-gradient(90deg, #4e54c8 0%, #8f94fb 100%);
+  background: linear-gradient(90deg, #4e54c8 0%, #6064a7 100%);
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -41,7 +40,7 @@ nav.main-nav a.active {
   color: #ffeb3b;
 }
 
-/* About Intro */
+
 .about-intro {
   background: #fff;
   border: 2px solid #4e54c8;
@@ -54,13 +53,13 @@ nav.main-nav a.active {
 }
 
 .about-intro h2 {
-  color: #4e54c8;
-  font-size: 2rem;
+  color: #7e3a3e;
+  font-size: 3rem;
   margin-bottom: 15px;
 }
 
 .about-intro h2 span {
-  color: #8f94fb;
+  color: #5a61d6;
 }
 
 .about-intro p {
@@ -70,8 +69,6 @@ nav.main-nav a.active {
   margin: auto;
 }
 
-
-/* Founders Section Styling  */
 .founders {
   margin-top: 50px;
   text-align: center;
@@ -97,31 +94,35 @@ nav.main-nav a.active {
   width: 280px;
   padding: 25px 15px;
   text-align: center;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.7);
   transition: 0.3s ease;
 }
 
+.founder-card:hover {
+  background-color: #a4aeca;
+  color: rgb(0, 0, 0);
+}
 
 .profile-pic img {
   width: 100px;
   height: 100px;
-  border-radius: 50%;
+  border-radius: 20%;
+
 }
 
-/* Social Links Styling  */
 .social-links {
   margin-top: 10px;
 }
 
 .social-links a {
-  color: #4e54c8;
+  color: #1820c7;
   margin: 0 8px;
   font-size: 1.2rem;
   transition: color 0.3s;
 }
 
 .founder-card:hover .social-links a {
-  color: #ffeb3b;
+  color: #18897a;
 }
 
 
