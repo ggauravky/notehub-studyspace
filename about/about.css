@@ -124,23 +124,26 @@ nav.main-nav a.active {
     align-items: center;
     justify-content: center;
     background: rgba(255, 255, 255, 0.05);
-    color: rgb(211, 200, 102);
+    color: rgb(14, 13, 2);
     font-size: 1.3rem;
     transition: all var(--transition-normal);
     border: 2px solid rgba(255, 255, 255, 0.1);
 }
 
-.founder-card:hover .social-links a {
-    background: #8a7d7d;
-    color: #4e54c8;
-    border: 2px solid #4e54c8;
-  
+.social-links a:hover {
+    transform: translateY(-5px);
+    background: linear-gradient(135deg, rgb(13, 13, 8), aqua);
+    color: #051417;
+    border-color: transparent;
+    box-shadow: 0 8px 20px rgba(242, 191, 49, 0.4);
 }
 
-
-
-
-
+.founder-card:hover .social-links a {
+    background: #8a7d7d;
+    color: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%)  ;
+    border: 2px solid #0c16c9;
+  
+}
 
 
 
