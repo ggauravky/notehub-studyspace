@@ -51,7 +51,7 @@ nav.main-nav a {
     /* color: red; */
     padding-top: 9px;
     margin-top: 2.5%;
-    
+
 
 
 }
@@ -59,7 +59,7 @@ nav.main-nav a {
 .con {
     border: 2px solid black;
     border-radius: 10px;
-    background-color: red   ;
+    background-color: red;
 }
 
 p {
@@ -75,14 +75,34 @@ p {
     margin-left: 15%;
     border-radius: 8px;
     text-align: center;
-    
+
 }
 
 form {
     display: flex;
-    background-color: rgb(151, 151, 201);
     justify-content: center;
     align-items: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #007bff;
+    margin-bottom: 25px;
+    font-size: 24px;
+    background: white;
+    border: 3px solid #007bff;
+    border-radius: 20px;
+    padding: 40px 50px;
+    width: 420px;
+    max-width: 90%;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-left: 500px;
+
+}
+
+form:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    border-color: #007bff;
 }
 
 /* General Page Styling */
@@ -185,4 +205,34 @@ button:hover {
     textarea {
         font-size: 15px;
     }
+}
+
+.about-intro h2 {
+    color: #7e3a3e;
+    font-size: 3rem;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    margin-top: 10px;
+}
+
+.about-intro h2 span {
+    color: #5a61d6;
+}
+
+.about-intro h4 {
+    color: #7e3a3e;
+    font-size: 3rem;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    margin-top: 10px;
+}
+
+.about-intro h4 span {
+    color: #5a61d6;
 }
