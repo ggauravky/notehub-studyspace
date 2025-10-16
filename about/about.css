@@ -103,10 +103,18 @@ nav.main-nav a.active {
   color: rgb(0, 0, 0);
 }
 
+.founder-card p {
+  font-weight: 50%;
+  margin: 10px 0;
+  color: #555;
+}
+
 .profile-pic img {
   width: 100px;
   height: 100px;
   border-radius: 50%;
+  filter: brightness(110%);
+  object-fit: cover;
 }
 
 
